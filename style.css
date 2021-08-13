@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* font-family: 'Caveat', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+/* font-family: 'Arsenal', sans-serif; */
+
+/* Colours
+FFX Blue: 23, 116, 255
+FFX Purple: 92, 42, 245
+FFX Orange: 252, 186, 71 */
+
+body {
+  margin: 0px;
+}
+
+#navbar {
+  background-color: dimgray;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 10px;
+  padding: 10px;
+}
+
+#navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  color: rgb(77, 151, 255);
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(92, 42, 245),
+    rgb(252, 186, 71)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-family: "Arsenal", sans-serif;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+#frontpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleback {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(92, 42, 245),
+    rgb(252, 186, 71)
+  );
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: white;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.characters {
+  width: 800px;
+}
+
+.text {
+  width: 900px;
+  color: dimgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(74, 74, 74, 0.6); */
+  margin: 0px 150px 0px 150px;
+}
+
+q {
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+}
+
+blockquote {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+#mainquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 20px 20px 0px;
+  font-size: 20px;
+}
+
+#top a {
+  color: rgb(77, 151, 255);
+}
+
+#top a:hover {
+  color: rgb(252, 186, 71);
+}
